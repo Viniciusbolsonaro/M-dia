@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maior</title>
+    primeiro numero <input id="Numero1" type="number"> <br/>
+    Segundo Numero ><input id="Numero2" type="number"> <br/>
+    <button onclick="comparação()">comparar</button>
+
+    <script type="text/javascript">
+        function comparação(){
+            var Numero1= parseFloat(document.getElementById("Numero1").value)
+            var Numero2= parseFloat(document.getElementById("Numero2").value)
+
+            if(Numero1 > Numero2)
+            alert("o Numero1 é maior");
+            else
+            if (Numero2 > Numero1)
+            alert(" o Numero 2 é maior");
+            else
+            if (Numero2 == Numero1)
+            alert("os dois é igual, avante Ucrânia")
+        }
+
+        </script>
+
+</head>
+<body>
+    
+</body>
+</html>
+    
+    
+
